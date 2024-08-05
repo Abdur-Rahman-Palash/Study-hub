@@ -143,8 +143,8 @@ body {
     border: 2px solid #563EDC;
     color: white;
     background: #563EDC;
-    width: 210px;
-    height: 90px;
+    width: 175px;
+    height: 125px;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -154,7 +154,8 @@ body {
 }
 .study-hub-image{
     display: flex;
-    gap: 15px;
+    gap: 55px;
+    justify-content: center;
 }
 .study-hub-image-image-2 img{
     height: 520px;
@@ -186,6 +187,7 @@ body {
 .study-hub-image-image-2 img{
     width: 350px;
     height: 510px;
+    object-fit: cover;
 }
 .study-hub-icon{
     display: flex;
@@ -196,3 +198,51 @@ body {
     justify-content: center;
     align-items: center;
 }
+.online-courses-card-1{
+    border: 1px solid #BBB1F2 ;
+    background: white;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.online-courses-card-2{
+    border: 1px solid #BBB1F2 ;
+    background: white;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.online-courses-card-3{
+    border: 1px solid #BBB1F2 ;
+    background: white;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.online-courses-card-4{
+    border: 1px solid #BBB1F2 ;
+    background: white;
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.online-courses-cards{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.online-courses{
+    background:#F9F8FD ;
+    margin-top: 100px;
+}
+.online-courses-text{
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+}
+
