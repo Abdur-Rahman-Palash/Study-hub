@@ -347,3 +347,77 @@ body {
    border: none;
    
 }
+.Excellence-text-card-1{
+    display: flex;
+    gap: 80px;
+}
+.Excellence-text-card-2{
+    display: flex;
+    gap: 80px;
+    margin-top: 10px;
+}
+.Excellence-text-card-3{
+    display: flex;
+    gap: 80px;
+    margin-top: 10px;
+}
+.Excellence{
+    display: flex;
+    background-image: url(./images/why-choose/01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    gap: 100px;
+    margin-top: 50px;
+    width: 100%;
+}
+.Excellence-image{
+    margin: 100px auto;
+    display: flex;
+    gap: 20px;
+}
+.Excellence-image-2{
+    margin-top: 150px;
+}
+.Excellence-text-cards{
+    width: 100%;
+    height: 200px;
+}
+.courses{
+    background: white;
+    color: black;
+    border: none;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    width: 200px;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.Excellence-text-card-1-text-image-1{
+    border: 0.5px solid gainsboro;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.Excellence-text-card-1-text-image-2{
+    border: 0.5px solid gainsboro;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.Excellence-texts{
+    color: white;
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+}
