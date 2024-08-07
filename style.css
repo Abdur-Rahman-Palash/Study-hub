@@ -287,7 +287,9 @@ body {
     border: 2px solid #9C8EEE;
     background: #EEEBFF;
     color: #907FEA;
-    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    padding: 2px;
 }
 .Featured-cards-1{
     display: flex;
