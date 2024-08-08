@@ -425,6 +425,7 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
+    justify-content: center;
 }
 .Events-card-1{
     display: flex;
@@ -482,4 +483,47 @@ body {
 }
 .Instructor-card-4 img{
     width: 250px;
+}
+.Review-feedback{
+    background-image: url(./images/students-feedback/03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.Review-feedback-image img{
+    height: 400px;
+    border-radius: 10px;
+    padding: 80px;
+}
+.Review-feedback-text{
+    color: white;
+}
+.Review-text{
+    text-align: center;
+    margin-top: 70px;
+}
+.Certificate{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background-image: url(./images/students-feedback/03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 1000px;
+    margin: 80px auto;
+}
+.Certificate-image img{
+    height: 240px;
+}
+.Certificate-text{
+    color: white;
 }
