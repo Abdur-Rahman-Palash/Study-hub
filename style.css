@@ -527,3 +527,36 @@ body {
 .Certificate-text{
     color: white;
 }
+.footer-start{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+.emaill{
+    position: relative;
+    padding: 10px;
+    width: 190px;
+}
+.btnn{
+    position: absolute;
+    right: 200px;
+    z-index: 1;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid #553CDF;
+    border:none;
+    background: #553CDF;
+    color: white;
+}
+.footer-end-icons{
+    display: flex;
+    gap: 20px;
+}
